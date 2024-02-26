@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>COFFEE</title>
+    <meta name="description" content="コーヒーショップ" />
+    <link rel="stylesheet" href="./css/ress.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cinzel&family=Sawarabi+Gothic&display=swap"
+      rel="stylesheet"
+    />
+    <!-- スライダー実装 -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="icon" href="images/favicon.png" type="image-bk/png" />
+  </head>
+  <body>
+    <header type="button" id="header" class="l-header">
+      <div class="p-header wrapper">
+        <h1 class="c-logo">
+          <a href="index.html">COFFEE</a>
+        </h1>
+        <button id="hamburger" class="c-hamburger">
+          <span class="c-hamburger__bar"></span>
+          <span class="c-hamburger__bar"></span>
+          <span class="c-hamburger__bar"></span>
+        </button>
+        <nav id="global-nav" class="p-global-nav">
+          <ul class="p-global-nav__menu">
+            <li><a href="#top" class="p-global-nav__list"><span>TOP</span><span>ホーム</span></a></li>
+            <li>
+              <a href="#concept" class="p-global-nav__list"><span>CONCEPT</span><span>お店について</span></a>
+            </li>
+            <li><a href="#menu" class="p-global-nav__list"><span>MENU</span><span>メニュー</span></a></li>
+            <li><a href="#access" class="p-global-nav__list"><span>ACCESS</span><span>アクセス</span></a></li>
+            <li><a href="#contact" class="p-global-nav__list"><span>CONTACT</span><span>お問い合わせ</span></a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main class="l-main">
+      <!-- スライダーのコンテナ -->
+      <div id="mainvisual" class="p-mainvisual swiper">
+        <div id="slick_slider" class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img src="./images/mainvisual1.jpg" alt="カフェラテとケーキの写真" />
+          </div>
+          <div class="swiper-slide">
+            <img src="./images/mainvisual2.jpg" alt="店内の写真" />
+          </div>
+          <div class="swiper-slide">
+            <img src="./images/mainvisual3.jpg" alt="テーブルの写真" />
+          </div>
+        </div>
+        <div class="p-title">
+          <h1 class="c-main-font wrapper">COFFEE</h1>
+          <p class="c-text--subtitle">コーヒーで癒しのひとときを。</p>
+        </div>
+      </div>
+
+      <div class="l-container">
+        <section class="p-news wrapper">
+          <nav class="p-news__nav">
+            <ul class="p-news__list">
+              <li class="p-news__list__in">
+                <time class="p-news__time">2023.12.20</time>
+                <p class="p-news__text">年末年始の休業のお知らせ</p>
+              </li>
+              <li class="p-news__list__in">
+                <time class="p-news__time">2023.10.23</time>
+                <p class="p-news__text">ハロウィンイベントを開催します。</p>
+              </li>
+              <li class="p-news__list__in">
+                <time class="p-news__time">2023.8.10</time>
+                <p class="p-news__text">お盆の営業時間について</p>
+              </li>
+              <li class="p-news__list__in">
+                <time class="p-news__time">2023.6.10</time>
+                <p class="p-news__text">7月より新店舗がオープンします。</p>
+              </li>
+            </ul>
+          </nav>
+        </section>
+        <section id="concept" class="p-section js-scroll">
+          <h2 class="c-sub-font u-mb50 js-rellax c-image-bk--01">CONCEPT</h2>
+          <div class="p-text wrapper">
+            <p class="c-text--main p-text__main">
+              コーヒーで癒しのひとときを。
+            </p>
+            <p class="u-mb25">
+              マスターがこだわりのコーヒーを提供し続けて50年。
+              <br />老若男女、誰もが楽しめるよう厨房を改装しリニューアルしました。
+              <br />
+              自家農園から厳選されたコーヒー豆を使用し、徹底的に美味しさを追求したコーヒーを提供しています。
+            </p>
+          </div>
+          <div class="p-image wrapper">
+            <img
+              class="p-image__img1"
+              src="./images/concept1.jpg"
+              alt="コーヒー豆の写真"
+            />
+            <img
+              class="p-image__img2"
+              src="./images/concept2.jpg"
+              alt="コーヒー豆を加工している写真"
+            />
+          </div>
+        </section>    
+        <section id="menu" class="p-section">
+          <h2 class="c-sub-font u-mb50 js-rellax c-image-bk--02">MENU</h2>
+          <div class="p-container">
+            <div class="wrapper">
+              <div class="p-container__left">
+                <h3 class="p-container__text">COFFEE</h3>
+                <dl>
+                  <dt>XXXXXXXX</dt>
+                  <dd>¥500</dd>
+                  <dt>XXXXXXXX</dt>
+                  <dd>¥500</dd>
+                  <dt>XXXXXXXX</dt>
+                  <dd>¥500</dd>
+                  <dt>XXXXXXXX</dt>
+                  <dd>¥500</dd>
+                  <dt>XXXXXXXX</dt>
+                  <dd>¥500</dd>
+                  <dt>XXXXXXXX</dt>
+                  <dd>¥500</dd>
+                  <dt>XXXXXXXX</dt>
+                  <dd>¥500</dd>
+                  <dt>XXXXXXXX</dt>
+                  <dd>¥500</dd>
+                </dl>
+              </div>
+              <div class="p-container__right">
+                <div class="food">
+                  <h3 class="p-container__text">FOOD</h3>
+                  <dl>
+                    <dt>XXXXXXXX</dt>
+                    <dd>¥500</dd>
+                    <dt>XXXXXXXX</dt>
+                    <dd>¥500</dd>
+                    <dt>XXXXXXXX</dt>
+                    <dd>¥500</dd>
+                  </dl>
+                </div>
+                <div>
+                  <h3 class="p-container__text other">OTHER</h3>
+                  <dl>
+                    <dt>XXXXXXXX</dt>
+                    <dd>¥500</dd>
+                    <dt>XXXXXXXX</dt>
+                    <dd>¥500</dd>
+                    <dt>XXXXXXXX</dt>
+                    <dd>¥500</dd>
+                  </dl>
+                </div>
+              </div>
+            </div>
+            <!--wrapper-->
+          </div>
+        </section>
+        <section id="access" class="p-section">
+          <h2 class="c-sub-font u-mb50 js-rellax c-image-bk--03">ACCESS</h2>
+          <div class="wrapper">
+            <div class="p-access">
+              <p>
+                〒150-0022<br />
+                東京都渋谷区恵比寿南X-XX-XX
+              </p>
+              <table class="p-access__table">
+                <tr>
+                  <th>営業時間</th>
+                  <td>月〜金 9:00〜18:00</td>
+                </tr>
+                <tr>
+                  <th></th>
+                  <td>土、日 10:00〜19:00</td>
+                </tr>
+                <tr>
+                  <th>電話番号</th>
+                  <td>000-000-0000</td>
+                </tr>
+              </table>
+            </div>
+          </div>
+          <iframe
+            class="c-map wrapper"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3242.4008856533783!2d139.71125957584402!3d35.642493532100936!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188b15da62b4dd%3A0x121891b13f05c5b0!2z5oG15q-U5a-_44Ks44O844OH44Oz44OX44Os44Kk44K5!5e0!3m2!1sja!2sjp!4v1694345434708!5m2!1sja!2sjp"
+            width="100%"
+            height="400px"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </section>
+        <section id="contact" class="p-section u-mb100">
+          <h2 class="c-sub-font u-mb50 js-rellax c-image-bk--04">CONTACT</h2>
+          <div class="wrapper">
+            <a
+              class="c-button p-button-contact u-mb20"
+              href="#"
+              target="”_blank”"
+              >求人に関するお問い合わせ</a
+            >
+            <a
+              class="c-button p-button-contact u-mb20"
+              href="#"
+              target="”_blank”"
+              >その他のお問い合わせ</a
+            >
+          </div>
+        </section>
+      </div>
+
+      <svg
+        class="p-wave"
+        xmlns="http://www.w3.org/2000/svg"
+        xmlns:xlink="http://www.w3.org/1999/xlink"
+        x="0px"
+        y="0px"
+        viewBox="0 0 1000 50"
+        enable-background="new 0 0 1000 50"
+        xml:space="preserve"
+      >
+        <path fill="#24140e">
+          <animate
+            dur="5s"
+            repeatCount="indefinite"
+            attributeName="d"
+            attributeType="XML"
+            values="
+      M1920.5,28.1c-55.6,14.7-90.5,16.5-144,0c-49.9-15.4-70.8-6.4-121.1,4.7c-52.3,11.6-73.9-24.9-122-31.7
+			c-41.2-5.9-69.6,35.3-110.5,35.1c-39.2-0.1-48.4-18.1-99.7-18.1c-60.2,0-89.3,23.5-132.7,10.4c-50.7-15.3-75.5-20.6-124.5-6.3
+			c-50.6,14.8-91,5.9-140.1-8c-93.8-26.5-163,15-254.5,16.9C592,32.7,525-7.1,442.9,13.3c-86.5,21.5-151,26.2-239.1,2.4
+			C138.3-2,58.7-8.4,0.5,28.1v29h1920V28.1z;
+      
+      M1920.5,26.1c-55.6,14.7-95.5,18.5-149,2c-49.9-15.4-65.8-6.4-116.1,4.7c-52.3,11.6-85.9-24.9-134-31.7
+			c-41.2-5.9-67.6,35.3-108.5,35.1c-39.2-0.1-48.4-19.1-99.7-19.1c-60.2,0-89.3,24.5-132.7,11.4c-50.7-15.3-75.5-20.6-124.5-6.3
+			c-50.6,14.8-111,2.9-160.1-11c-93.8-26.5-143,15-234.5,16.9C582,29.7,495-8.1,412.9,12.3c-86.5,21.5-133,35.2-221.1,11.4
+			C126.3,6,58.7-10.4,0.5,26.1v29h1920V26.1z;
+      
+      M1920.5,23.8c-55.6,14.7-115.5,18.5-169,2c-49.9-15.4-65.8-6.4-116.1,4.7c-52.3,11.6-85.9-18.9-134-25.7
+			c-41.6-5.9-67.6,27.3-108.5,27.1c-39.2-0.1-51.4-17.1-102.7-17.1c-60.2,0-83.3,27.5-126.7,14.4C1112.8,13.9,1090,1.6,1041,15.9
+			c-50.6,14.8-106,6.9-155.1-7c-93.8-26.5-153,18-244.5,19.9C562,30.4,479-7.4,396.9,13c-86.5,21.5-137,29.2-225.1,5.4
+			C106.3,0.7,58.7-12.7,0.5,23.8v29h1920V23.8z;
+			
+      M1920.5,26.1c-55.6,14.7-95.5,18.5-149,2c-49.9-15.4-65.8-6.4-116.1,4.7c-52.3,11.6-85.9-24.9-134-31.7
+			c-41.2-5.9-67.6,35.3-108.5,35.1c-39.2-0.1-48.4-19.1-99.7-19.1c-60.2,0-89.3,24.5-132.7,11.4c-50.7-15.3-75.5-20.6-124.5-6.3
+			c-50.6,14.8-111,2.9-160.1-11c-93.8-26.5-143,15-234.5,16.9C582,29.7,495-8.1,412.9,12.3c-86.5,21.5-133,35.2-221.1,11.4
+			C126.3,6,58.7-10.4,0.5,26.1v29h1920V26.1z;
+			
+      M1920.5,28.1c-55.6,14.7-90.5,16.5-144,0c-49.9-15.4-70.8-6.4-121.1,4.7c-52.3,11.6-73.9-24.9-122-31.7
+			c-41.2-5.9-69.6,35.3-110.5,35.1c-39.2-0.1-48.4-18.1-99.7-18.1c-60.2,0-89.3,23.5-132.7,10.4c-50.7-15.3-75.5-20.6-124.5-6.3
+			c-50.6,14.8-91,5.9-140.1-8c-93.8-26.5-163,15-254.5,16.9C592,32.7,525-7.1,442.9,13.3c-86.5,21.5-151,26.2-239.1,2.4
+			C138.3-2,58.7-8.4,0.5,28.1v29h1920V28.1z;"
+          ></animate>
+        </path>
+      </svg>
+    </main>
+    <footer id="footer" class="l-footer">
+      <div class="wrapper">
+        <p>COFFEE</p>
+        <p>〒150-0022 東京都渋谷区恵比寿南X-XX-XX</p>
+        <p>電話番号 000-000-0000</p>
+        <ul class="p-sns">
+          <li><a href="#">X(Twitter)</a></li>
+          <li><a href="#">facebook</a></li>
+          <li><a href="#">instagram</a></li>
+        </ul>
+        <ul class="p-copyright">
+          <li><a href="#">PRIVACY POLICY</a></li>
+          <li>&copy; COFFEE</li>
+        </ul>
+      </div>
+    </footer>
+    <script
+      src="https://code.jquery.com/jquery-3.7.1.min.js"
+      integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      type="text/javascript"
+      src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+    ></script>
+    <script src="./script.js"></script>
+
+    <!-- <script src=”https://cdnjs.cloudflare.com/ajax/libs/rellax/1.0.0/rellax.min.js”></script> -->
+  </body>
+</html>

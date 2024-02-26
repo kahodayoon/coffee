@@ -1,0 +1,18 @@
+@use "../../foundation/base" as *;
+.p-title {
+  width: 80%;
+  max-width: 500px;
+  padding: 30px 10px;
+  background-color: rgba( 255, 255, 255, 0.45 );
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  @include tab {
+    padding: 50px 40px;
+    bottom: 10%;
+    left: 0;
+  }
+  @include pc {
+    left: 10%;
+  }
+}

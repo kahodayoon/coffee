@@ -1,0 +1,27 @@
+@use "../../foundation/base" as *;
+.p-news {
+  padding-top: 60px;
+  text-align: left;
+  font-size: 1.6rem;
+  @include tab {
+    font-size: 2rem;
+  }
+}
+.p-news__list__in {
+  padding: 10px 0;
+  @include tab {
+    display: flex;
+    flex-direction: row;
+    padding-left: 10px;
+    time {
+      width: 20%;
+    }
+    p {
+      width: 80%;
+    }
+  }
+
+}
+.p-news__list__in + .p-news__list__in {
+  border-top: 1px dotted #000;
+}

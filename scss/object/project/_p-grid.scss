@@ -1,0 +1,5 @@
+@use '../../foundation/base' as *;
+.p-grid {
+  display: grid;
+  gap: 30px;
+}

@@ -1,0 +1,12 @@
+@use "../../foundation/base" as *;
+.p-access {
+  text-align: left;
+  padding-left: 10px;
+  margin-bottom: 25px;
+  border-left: 1px solid $main-text-color;
+}
+.p-access__table {
+  th {
+    padding-right: 10px;
+  }
+}

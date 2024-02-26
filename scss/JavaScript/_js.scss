@@ -1,0 +1,43 @@
+@use "../foundation/base" as *;
+// .js-scroll {
+//   transition: 0.8s ease-in-out;
+//   transform: translateY(30px);
+//   opacity: 0;
+// }
+
+// .js-scroll.on {
+//   transform: translateY(0);
+//   opacity: 1;
+// }
+//パララックス（JS使用せず）
+.js-rellax {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: auto;
+  background-attachment: scroll;
+  @include pc {
+    height: 250px;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+.js-rellax.c-image-bk--01 {
+  background-position: bottom 5% left 50%;
+}
+.js-rellax.c-image-bk--02 {
+  background-position: top 15% left 50%;
+}
+
+//スライダーのスタイリング
+.swiper-wrapper {
+  padding-top: 50px;
+}
+.swiper-slide {
+  height: 50vw;
+  object-fit: contain;
+}
+

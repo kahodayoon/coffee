@@ -1,0 +1,9 @@
+@use "../../foundation/base" as *;
+.c-sub-font {
+  font-size: 3.2rem;
+  color: #fff;
+  text-shadow: 1px 1px 10px #808080;
+  @include tab {
+    font-size: 4rem;
+  }
+}

@@ -1,0 +1,27 @@
+@use '../../foundation/base' as *;
+.p-image {
+ @include tab {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap:10px;
+ }
+}
+.p-image__img1 {
+  width: 80%;
+  margin: 0 auto;
+  padding-bottom: 10px;
+  @include tab {
+  width: 40%;
+  padding-bottom: 0;
+  margin: 0;
+  }
+}
+.p-image__img2 {
+  width: 80%;
+  margin: 0 auto;
+  @include tab {
+  width: 40%;
+  margin: 0;
+  }
+}

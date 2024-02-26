@@ -1,0 +1,21 @@
+@use "../../foundation/base" as *;
+.c-image-bk {
+  padding: 30px;
+}
+.c-image-bk--01 {
+  @extend .c-image-bk;
+  background-image: url(../images/about1.jpg);
+}
+.c-image-bk--02 {
+  @extend .c-image-bk;
+  background-image: url(../images/menu1.jpg);
+}
+.c-image-bk--03 {
+  @extend .c-image-bk;
+  background-image: url(../images/location1.jpg);
+}
+.c-image-bk--04 {
+  @extend .c-image-bk;
+  background-image: url(../images/contact1.jpg);
+}
+

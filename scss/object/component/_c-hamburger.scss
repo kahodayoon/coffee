@@ -1,0 +1,48 @@
+@use "../../foundation/base" as *;
+.c-hamburger {
+  position: relative; /*ボタン内側の基点となるためrelativeを指定*/
+  background-color: transparent;
+  cursor: pointer;
+  width: 50px;
+  height: 50px;
+  border-radius: 5px;
+  z-index: 10;
+  @include pc {
+    display: none;
+  }
+}
+.c-hamburger__bar {
+  display: block;
+  content: "";
+  transition: all 0.4s; /*アニメーションの設定*/
+  position: absolute;
+  left: 14px;
+  height: 1px;
+  border-radius: 2px;
+  background: $main-text-color;
+  width: 45%;
+}
+.c-hamburger__bar:nth-child(1) {
+  top: 15px;
+}
+.c-hamburger__bar:nth-child(2) {
+  top: 23px;
+}
+.c-hamburger__bar:nth-child(3) {
+  top: 31px;
+}
+/*openクラスが付与されると線が回転して×に*/
+.c-hamburger.open {
+  z-index: 10;
+  .c-hamburger__bar:nth-child(1) {
+    transform: translateY(8px) rotate(-45deg);
+    // background-color: #fff;
+  }
+  .c-hamburger__bar:nth-child(2) {
+    opacity: 0;
+  }
+  .c-hamburger__bar:nth-child(3) {
+    transform: translateY(-8px) rotate(45deg);
+    // background-color: #fff;
+  }
+}

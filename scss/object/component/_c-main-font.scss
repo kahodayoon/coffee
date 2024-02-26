@@ -1,0 +1,7 @@
+@use "../../foundation/base" as *;
+.c-main-font {
+  font-size: 3.6rem;
+  @include tab {
+  font-size: 5rem;
+  }
+}

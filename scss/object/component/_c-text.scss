@@ -1,0 +1,10 @@
+@use "../../foundation/base" as *;
+.c-text--main {
+  font-size: 2rem;
+}
+.c-text--subtitle {
+  font-size: 1.6rem;
+  @include tab {
+    font-size: 2rem;
+  }
+}

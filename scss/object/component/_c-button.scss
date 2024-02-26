@@ -1,0 +1,6 @@
+@use "../../foundation/base" as *;
+.c-button {
+  display: block;
+  margin: 0 auto;
+  border: solid 1px $main-text-color;
+}

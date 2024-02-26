@@ -1,0 +1,48 @@
+//共通部分
+$font-jp: 'Sawarabi Gothic', sans-serif;
+$font-en: 'Cinzel', serif;
+$main-bk-color:#fff;
+$archive-bk-color:#3C2B1C;
+$main-text-color:#383e45;
+
+$tab: 650px; 
+@mixin tab {
+  @media (min-width: ($tab)) {
+    @content;
+  }
+}
+$pc: 1000px; 
+@mixin pc {
+  @media (min-width: ($pc)) {
+    @content;
+  }
+}
+
+html {
+  font-size: 62.5%;
+  height: 100%;
+}
+body {
+  font-size: 1.6rem;
+  font-family: $font-jp;
+  color: $main-text-color;
+  background-color: $main-bk-color;
+  height: 100%;
+  position: relative;
+  text-align: center;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+img {
+  max-width: 100%;
+}
+li {
+  list-style: none;
+}
+.wrapper {
+  padding: 0 5.2%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
